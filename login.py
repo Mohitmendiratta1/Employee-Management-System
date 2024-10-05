@@ -19,7 +19,7 @@ root.geometry('930x478')
 root.resizable(0,0)
 root.title('login page')
 # login.py
-image = CTkImage(Image.open('assets/cover.jpg'), size=(930, 478))
+image = CTkImage(Image.open('cover.jpg'), size=(930, 478))
 
 imageLabel=CTkLabel(root,image=image,text='')
 imageLabel.place(x=0,y=0)
