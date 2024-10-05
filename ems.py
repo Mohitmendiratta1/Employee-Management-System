@@ -147,7 +147,7 @@ root.resizable(False,False)
 root.title('Employee Management System')
 root.configure(fg_color='#161c30')
 # ems.py
-logo = CTkImage(Image.open('assets/bg.jpg'), size=(930, 158))
+logo = CTkImage(Image.open('bg.jpg'), size=(930, 158))
 
 logoLabel=CTkLabel(root,image=logo,text='')
 logoLabel.grid(row=0,column=0,columnspan=2)
